@@ -1,0 +1,14 @@
+<?php
+$idioma['titulo'] = "Listado completo de Usuarios";
+$idioma['infoversion']="Info Versi&oacute;n";
+$idioma['titulo_id'] = "ID";
+$idioma['titulo_usuario'] = "Usuario";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+$idioma[''] = "";
+?>

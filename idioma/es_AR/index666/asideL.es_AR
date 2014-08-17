@@ -1,0 +1,62 @@
+<?php
+$idioma['buscador'] = "Buscador";
+$idioma['visitar_sitio']="Visitar el sitio";
+$idioma['desplegable_1']="Control de usuarios";
+$idioma['desplegable_2']="alguna cosa";
+$idioma['desplegable_3']="Gu&iacute;a de AdminizioLite";
+
+// de la guía
+$idioma['guia1']="<i>Cap&iacute;tulo 1</i><br/>Estilos de t&iacute;tulos";
+$idioma['guia2']="<i>Cap&iacute;tulo 2</i><br/>Mensajes de sistema (alerts)";
+$idioma['guia3']="<i>Cap&iacute;tulo 3</i><br/>Tabs(ajax)";
+$idioma['guia4']="<i>Cap&iacute;tulo 4</i><br/>2 columnas 50-50";
+$idioma['guia5']="<i>Cap&iacute;tulo 5</i><br/>3 columnas 33-33-33";
+$idioma['guia6']="<i>Cap&iacute;tulo 6</i><br/>Alineaci&oacute;n de texto";
+$idioma['guia7']="<i>Cap&iacute;tulo 7</i><br/>Tama&ntilde;o y resaltado de texto";
+$idioma['guia8']="<i>Cap&iacute;tulo 8</i><br/>Lista Desordenada - (ul.nostyle)";
+$idioma['guia9']="<i>Cap&iacute;tulo 9</i><br/>Lista sin ordenar";
+$idioma['guia10']="<i>Cap&iacute;tulo 10</i><br/>Lista ordenada";
+$idioma['guia11']="<i>Cap&iacute;tulo 11</i><br/>Tabla (table.nostyle)";
+$idioma['guia12']="<i>Cap&iacute;tulo 12</i><br/>Tabla";
+$idioma['guia13']="<i>Cap&iacute;tulo 13</i><br/>Formularios";
+$idioma['guia14']="<i>Cap&iacute;tulo 14</i><br/>Definici&oacute;n de lista (dl.nostyle)";
+$idioma['guia15']="<i>Cap&iacute;tulo 15</i><br/>Definici&oacute;n de lista";
+$idioma['guia16']="<i>Cap&iacute;tulo 16</i><br/>Botones css";
+
+// generales
+$idioma['Crear_nuevo_proyecto']="Crear un nuevo proyecto";
+$idioma['opcion_1']="Opci&oacute;n I";
+$idioma['opcion_2']="Opci&oacute;n II";
+$idioma['opcion_3']="Opci&oacute;n III";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+?>

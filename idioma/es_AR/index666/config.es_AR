@@ -1,0 +1,17 @@
+<?php
+$idioma['titulo'] = "Listado de Configuraciones";
+$idioma['editar'] = "Editar";
+$idioma['listar'] ="Listado de Configuraciones";
+$idioma['insertar'] ="Insertar";
+$idioma['eliminar'] ="Eliminar";
+$idioma['infoversion']="Info Versi&oacute;n";
+$idioma['titulo_id']="ID(no modificable)";
+$idioma['titulo_config']="Configuraci&oacute;n:";
+$idioma['titulo_valor']="Valor:";
+$idioma['titulo_funcion']="Acciones posibles:";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+$idioma['']="";
+?>

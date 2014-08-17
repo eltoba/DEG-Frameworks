@@ -1,0 +1,4 @@
+<?php
+$idioma['titulo_introduccion']="";
+$idioma['titulo_ultima_noticia']="";
+?>

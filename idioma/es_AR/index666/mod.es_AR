@@ -1,0 +1,7 @@
+<?php
+$idioma['titulo']="Listado de M&oacute;dulos";
+$idioma['listar']="Lista de Modulos";
+$idioma['insertar']="Insertar";
+$idioma['eliminar']="Borrar";
+$idioma['infoversion']="Informaci&oacute;n de versi&oacute;n";
+?>

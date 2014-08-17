@@ -1,0 +1,10 @@
+<?php
+$idioma['titulo'] = "Borrado de Configuraci&oacute;n: ";
+$idioma['aviso'] = "
+    <marquee direction=\"left\" behavior=\"slide\" scrolldelay=\"0.1\" width=\"500\"><p class=\"msg warning\">ATENCION: Si borras esta configuraci&oacute; ya no se podr&aacute; revertir el proceso!</p></marquee>
+";
+$idioma['titulo_config']="Configuraci&oacute;n:";
+$idioma['titulo_valor']="Valor:";
+$idioma['eliminar'] = "BORRAR";
+$idioma['editar'] = "EDITAR";
+?>

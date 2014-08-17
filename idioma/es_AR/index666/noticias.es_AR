@@ -1,0 +1,8 @@
+<?php
+$idioma['titulo'] = "Listado de Noticias";
+$idioma['infoversion']="Info Versi&oacute;n";
+$idioma['titulo_id']="ID";
+$idioma['titulo_Noticia']="T&iacute;tulo";
+$idioma['titulo_autor']="Autor";
+$idioma['titulo_funcion']="Acciones posibles";
+?>

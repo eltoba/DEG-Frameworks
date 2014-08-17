@@ -1,0 +1,18 @@
+<?php
+$idioma['inicio'] = "Inicio";
+$idioma['razas'] = "Razas";
+$idioma['usuarios'] = "Usuarios";
+$idioma['clases'] = "Clases";
+$idioma['noticias'] = "Noticias";
+$idioma['modulos'] = "Modulos";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+$idioma[]="";
+?>

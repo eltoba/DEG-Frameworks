@@ -1,0 +1,6 @@
+<?php
+$idioma['titulo_introduccion'] = "PROYECTO DEMONIA - NOTICIAS";
+$idioma['titulo_ultima_noticia'] = "Ultima Noticia";
+$idioma['titulo_noticias1'] = "NOTICIA 1";
+$idioma['titulo_noticias2'] = "NOTICIA 2";
+?>

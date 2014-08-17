@@ -1,0 +1,18 @@
+<?php
+$idioma['titulo'] = "Insertar nueva noticia";
+$idioma['aviso'] = "Aqu&iacute; podr&aacute;s agregar una nueva noticia en tu sistema, la cual aparecerà de forma automàtica en el portal (en futuras versiones se agregarà la opcion de publicar/despublicar)";
+$idioma['form_id'] = "ID: ";
+$idioma['form_titulo'] = "Titulo: ";
+$idioma['form_copete'] = "Copete: ";
+$idioma['form_cuerpo'] = "Cuerpo:";
+$idioma['form_autor'] = "Autor:";
+$idioma['insertar']="Insertar";
+$idioma['eliminar']="Eliminar";
+$idioma['listar']="Listado de Noticias";
+$idioma['ins_id']="el ID se asignar&aacute; autom&aacute;ticamente";
+$idioma['ins_titulo'] = "Escriba un t&iacute;tulo";
+$idioma['ins_copete'] = "Escriba un resumen corto de su noticia";
+$idioma['ins_cuerpo'] = "Escriba la noticia expandida";
+$idioma['ins_autor']="Inserte el nombre del autor";
+$idioma['infoversion']="Info Versi&oacute;n";
+?>

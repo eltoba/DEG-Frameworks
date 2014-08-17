@@ -1,0 +1,4 @@
+<?php
+// titulos
+$idioma['Ultimos_Registrados'] = "Ultimos Registrados";
+?>

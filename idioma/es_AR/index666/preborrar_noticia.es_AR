@@ -1,0 +1,9 @@
+<?php
+$idioma['nombre'] = "Borrado de Noticia: ";
+$idioma['aviso'] = "
+    <marquee direction=\"left\" behavior=\"slide\" scrolldelay=\"0.1\" width=\"500\"><p class=\"msg warning\">ATENCION: Si borras esta noticia ya no se podr&aacute; revertir el proceso!</p></marquee>
+";
+$idioma['titulo_noticia']="Titulo:";
+$idioma['eliminar'] = "BORRAR";
+$idioma['editar'] = "EDITAR";
+?>

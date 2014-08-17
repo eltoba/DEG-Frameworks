@@ -1,0 +1,6 @@
+<?php
+$idioma['usuario'] = $_SESSION['usuario'];
+$idioma['salir'] = "SALIR";
+$idioma['mostrar'] = "Mostrar el menu";
+$idioma['esconder'] = "Esconder el menu";
+?>

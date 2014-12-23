@@ -1,5 +1,0 @@
-<?php
-$idioma['titulo_activaciones']="PROYECTO DEMONIA - ACTIVACIONES";
-$idioma['titulo_activacion'] = "Zona de activaci&oacute;n";
-$idioma['aviso']="";
-?>

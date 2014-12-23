@@ -1,70 +1,38 @@
 <?php
+// seguridad contra acceso por url
+if (!defined("_access")) {
+	die("Error: You don't have permission to access here...");
+}
 /**
- * Description of mod_inicio
- *
- * @author Mauricio
+ * 
+ * Este archivo es el encargado de mostrar la pagina principal, mas info en @subpackage mod_inicio
+ * 
+ * @name DEG Framework
+ * @package modelo.mod_inicio
+ * @version v4.0
+ * @author Mauricio José Tobares <carrozadelamuerte@gmail.com>
+ * @copyright (c) 2011, Mauricio Jose Tobares
+ * @license http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES Reconocimiento-CompartirIgual 3.0 Unported (CC BY-SA 3.0)
+ * @link http://una-web.com Web oficial del proyecto
  */
-/**
- * se incluye la clase PDO_class
- */
-require_once 'lib/PDO.class.php';
-class mod_inicio extends PDO_class {
+class Mod_inicio extends PDO_class {
     var $config;
     /**
      * 
-     * @param type $nivelacceso
-     * @param type $GET
+     * @param int $nivelacceso nivel del usuario
+     * @param string $ir el valor de $_GET['ir']
+     * @return array
      */
     public function inicio($nivelacceso, $ir) {
-        /**
-         * se incluye la funcion fechaActual()
-         */
-        include_once 'modelo/mod_fechaActual.php';
-        $fechaActual = fechaActual();
-        /**
-         * se incluye la funcion saludoHora()
-         */
-        include_once 'modelo/mod_saludosegunhora.php';
-        $saludosegunhora = saludoHora();
+        // se traen las plantillas a utilizar
         $plantilla = $this->setPlantilla($nivelacceso, $ir);
+        // se cargan las configuraciones necesarias
         $config = $this->setConfig();
-        $contenido = $this->contenidos();
         $menu = $this->setMenu($nivelacceso);
         return array(
             'configuraciones' => $config,
             'plantilla' => $plantilla,
-            'menu_nav' => $menu,
-            'contenido' => $contenido,
-            'fecha_actual' => $fechaActual,
-            'saludo_segun_la_hora' => $saludosegunhora
+            $menu,
         );
     }
-    /**
-     * 
-     * @return type
-     */
-    protected function contenidos() {
-        include 'modelo/mod_noticias.php';
-        $contenido = new mod_noticias();
-        return $contenido->listar();
-    }
-    protected function setPlantilla($nivelacceso, $ir) {
-        require_once 'modelo/sis_plantilla.php';
-        $plantilla = new sis_plantilla();
-        return $plantilla->setPlantilla($nivelacceso, $ir); // traemos las plantillas
-    }
-    protected function setMenu($nivelacceso) {
-        require_once 'modelo/mod_menu.php';
-        $menu = new mod_menu();
-        return $menu->setMenu($nivelacceso); // traemos los menu necesarios
-    }
-    protected function setConfig() {
-        require_once 'modelo/sis_config.php';
-        $config = new sis_config();
-        return $config->setConfig(); // traemos las configuraciones del sistema
-
-    }
-    
-    
 }
-

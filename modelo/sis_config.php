@@ -4,15 +4,18 @@ if (!defined("_access")) {
 	die("Error: You don't have permission to access here...");
 }
 /**
- * requerimos PDO.class.php
+ * 
+ * Este archivo es el encargado de cargar las configuraciones necesarias desde la base de datos, mas info en @subpackage Sis_config
+ * 
+ * @name DEG Framework
+ * @package modelo.sis_config
+ * @version v4.0
+ * @author Mauricio José Tobares <carrozadelamuerte@gmail.com>
+ * @copyright (c) 2011, Mauricio Jose Tobares
+ * @license http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES Reconocimiento-CompartirIgual 3.0 Unported (CC BY-SA 3.0)
+ * @link http://una-web.com Web oficial del proyecto
  */
-require_once 'lib/PDO.class.php';
-/**
- * Description of sis_config
- *
- * @author Mauricio
- */
-class sis_config extends PDO_class {
+class Sis_config extends PDO_class {
 /**
  * 
  * @return array
@@ -30,4 +33,3 @@ class sis_config extends PDO_class {
         return $retornar;
     }
 }
-

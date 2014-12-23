@@ -1,23 +1,23 @@
 <?php
-/**
- * @name DEG Framework
- * @version V3.0-RC1-RV1
- * @author Mauricio José Tobares <carrozadelamuerte@gmail.com>
- * @copyright (c) 2011, Mauricio Jose Tobares
- * @license http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES Reconocimiento-CompartirIgual 3.0 Unported (CC BY-SA 3.0)
- * @link http://proyectodeg.com.ar Web oficial del proyecto
- */
 // seguridad contra acceso por url
 if(!defined('_access')) {
   die('Error: You don\'t have permission to access here...');
 }
 /**
  * 
- * @author Mauricio Jose Tobares <carrozadelamuerte@gmail.com>
- * @version 1.0
+ * Este archivo es el encargado de generar y mostrar las plantillas así como
+ * integrar y reemplazar las variables de idioma que correspondan,
+ * mas info en @subpackage Plantilla
+ * 
+ * @name DEG Framework
+ * @package lib.clase_plantilla
+ * @version v4.0
+ * @author Mauricio José Tobares <carrozadelamuerte@gmail.com>
  * @copyright (c) 2011, Mauricio Jose Tobares
+ * @license http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES Reconocimiento-CompartirIgual 3.0 Unported (CC BY-SA 3.0)
+ * @link http://una-web.com Web oficial del proyecto
  */
-class plantilla {
+class Plantilla {
     /**
      *
      * @var str $vars trae las variables de idioma desde la clase controlador/clase_controlador.php
@@ -35,14 +35,14 @@ class plantilla {
     private $mihtml;
 /**
  * 
- * @param str $template_file
+ * @param str $template_file nombre de la plantilla a cargar
  */
     function plantilla($template_file) {
         $this->tpl_file = $template_file . '.tpl.php';
     }
     /**
      * 
-     * @param type $vars
+     * @param string $vars variables de idioma que se deben reemplazar en la plantilla
      */
     function idioma($vars) {
         $this->vars = (empty($this->vars)) ? $vars : $this->vars . $vars;
@@ -79,11 +79,15 @@ class plantilla {
 }
 /**
  * 
- * @param type $error
- * @return type
+ * @param string $error para mostrar errores muestra los errores que se produzcan
+ * sin bloquear todo el sistema, en lugar de mostrar la plantilla que presenta
+ * errores lo que hace es cargar todas las plantillas restantes menos la plantilla
+ * que presenta problemas y en lugar de esa plantilla problematica muestra el
+ * error surgido
+ * @return string
  */
 function sostenedor_error($error) {
     $miplantilla = new plantilla('error');
-    $miplantilla->idioma(array('ERROR' => $error));
+    $miplantilla->idioma(array('aviso_de_retorno' => $error));
     return $miplantilla->muestra();
 }
